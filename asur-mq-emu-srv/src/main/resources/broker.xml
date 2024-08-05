@@ -5,8 +5,8 @@
 
         <security-enabled>false</security-enabled>
 
-<!--        <acceptors>
-            <acceptor name="in-vm">vm://1</acceptor>
-        </acceptors>-->
+        <acceptors>
+            <acceptor name="netty-acceptor">tcp://localhost:61616</acceptor>
+        </acceptors>
     </core>
 </configuration>
